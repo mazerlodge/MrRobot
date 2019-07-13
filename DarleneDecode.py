@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/opt/python/bin/python3.7
 
 # Version: 20170707-1815
 
