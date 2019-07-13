@@ -9,7 +9,7 @@ from ArgTools import ArgParser
 
 # Hard coded constants
 DATA_FILE__MAC = "/Users/mazerlodge/Documents/XProjects/Python/MrRobot/darlene_code.txt"
-DATA_FILE__WIN = "C:\pmsoren\_PT\PyProj\MrRobot\darlene_code.txt"
+DATA_FILE__WIN = "C:\\pmsoren\\_PT\\PyProj\\MrRobot\\darlene_code.txt"
 
 # Setup variables
 osType = "NOT_SET"
@@ -17,14 +17,14 @@ dataPath = "NOT_SET"
 
 def showUsage():
     print("Usage: python DarleneDecode.py -os {mac | win} \n"
-    		+ "\t -os {mac | win} - Operating system selection (used to set dictionary path).\n");
-    sys.exit()
+    		+ "\t -os {mac | win} - Operating system selection (used to set dictionary path).\n")
+    exit()
 
 def parseArgs():
 	# Parse the arguments looking for required parameters.
 	# Return false if any tests fail.
 	
-	global osType, action, searchType, targetPhrase
+	global osType
 	
 	subtestResults = []
 	rval = True
@@ -71,10 +71,11 @@ def doDarleneDecode():
 		
 	targetwordindex = 5 
 	while (targetwordindex < len(words)):
-		print words[targetwordindex][0:2],
+		print(words[targetwordindex][0:2], end="")
 		targetwordindex += 6
 			
-	
+	print()
+
 #### EXECUTION Starts Here ####
 
 # Validate startup parameters
