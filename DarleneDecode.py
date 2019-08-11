@@ -8,8 +8,8 @@ import sys
 from ArgTools import ArgParser
 
 # Hard coded constants
-DATA_FILE__MAC = "/Users/mazerlodge/Documents/XProjects/Python/MrRobot/darlene_code.txt"
-DATA_FILE__WIN = "C:\\pmsoren\\_PT\\PyProj\\MrRobot\\darlene_code.txt"
+DATA_FILE__MAC = "./darlene_code.txt"
+DATA_FILE__WIN = ".\\darlene_code.txt"
 
 # Setup variables
 osType = "NOT_SET"
@@ -84,4 +84,4 @@ if (not parseArgs()):
 
 doDarleneDecode()
 
-
+print("EoX")
