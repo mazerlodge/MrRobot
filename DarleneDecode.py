@@ -83,5 +83,3 @@ if (not parseArgs()):
 	showUsage()
 
 doDarleneDecode()
-
-print("EoX")
