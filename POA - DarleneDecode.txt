@@ -17,5 +17,4 @@ POA - DarleneDecode
 
 > Next:
 	- Test windows relative path (works on mac) 
-	- Add parameters for word, character count, and data file (currently hard coded)
 	
