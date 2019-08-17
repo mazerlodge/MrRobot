@@ -5,7 +5,12 @@ POA - DarleneDecode
 ==== Activity Log - 2019 ====
 
 08/11
-	- Changed DATA_FILE... paths to be relative paths 
+	- Changed DATA_FILE... paths to be relative paths
+
+08/16 
+	- Added parameters for -file -wordindex -charcount -skipchar
+	- Added skipping of comment lines (lines that start with pound sign #) 
+	- Added additional sample data files 
 
 > In-Progress:
 
